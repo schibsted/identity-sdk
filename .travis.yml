@@ -18,7 +18,7 @@ deploy:
     secure: Y6naRJvnyaSSCbINggSLxg8EyapxPn1/mLTFKUEWjAp7fQf0OprgFWUwMRX5PjJ8IktDIlq0GKe8unKNVFMTdiQZcz6W7jZ2LhDUan+KHs4V6hdpoOV+dlMZBgQbBpdnDrdk6EwwQiJFQBnbT5S/uAIEOTcNWRfKAiUvhCFkGWDvNfRZIe2cOLyPzYrjLScQwAC38VbP8266X64mfVst8frLl6n/tF61jyma6AiQoHjTlJz8k1wx4aT6HHyHaDyqi8BADomJ5uojaslcCjvhYl1Dq0mivL3swlWXEISXG0jfYDfHCm8YgWvQiYajWVE3T9gnKFLhVOrlU4mb1cW5623UG0zb0oZlJdVm8TlPUrKkdPl9U6AeBzQnA6nVRu77SXWQHhFzQJAMjc6XH62hQtGoaxEy5RcOD0iyPwYqN0GDL10nvU/CLMEq/egHbe+bujz8Fu7sS2QQDT2YBNWEylvdza/N9G7N1unlqIv/wFjTO87yZUzwLQvYi1ky8+RyTkKx6ZUoFljMlq4ZqnP3/F84xmmXfkM2r+xoKCitiZu22DXj05W5uiWQ2JRi5M8OyQ/czLE+eSkFBv5nhtFWhpP+lUYJcAeEUwKtT4rNL/i24NIHQMSGsrXAO/sb1BsocstbOI8p40FlflPstAt7d/DYfeBifRBD2J7IVb5kpmg=
   on:
     tags: true
-    repo: schibsted/core-sdk-node
+    repo: schibsted/identity-sdk
     branch: master
     # only publish from one row of the build matrix
     node: '8'
