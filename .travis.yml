@@ -10,14 +10,11 @@ install: npm install
 script: npm test
 deploy:
   provider: npm
-  # Alex's public github email
   email: hanifbbz@gmail.com
-  # Alex's NPM key
   api_key:
-    secure: Y6naRJvnyaSSCbINggSLxg8EyapxPn1/mLTFKUEWjAp7fQf0OprgFWUwMRX5PjJ8IktDIlq0GKe8unKNVFMTdiQZcz6W7jZ2LhDUan+KHs4V6hdpoOV+dlMZBgQbBpdnDrdk6EwwQiJFQBnbT5S/uAIEOTcNWRfKAiUvhCFkGWDvNfRZIe2cOLyPzYrjLScQwAC38VbP8266X64mfVst8frLl6n/tF61jyma6AiQoHjTlJz8k1wx4aT6HHyHaDyqi8BADomJ5uojaslcCjvhYl1Dq0mivL3swlWXEISXG0jfYDfHCm8YgWvQiYajWVE3T9gnKFLhVOrlU4mb1cW5623UG0zb0oZlJdVm8TlPUrKkdPl9U6AeBzQnA6nVRu77SXWQHhFzQJAMjc6XH62hQtGoaxEy5RcOD0iyPwYqN0GDL10nvU/CLMEq/egHbe+bujz8Fu7sS2QQDT2YBNWEylvdza/N9G7N1unlqIv/wFjTO87yZUzwLQvYi1ky8+RyTkKx6ZUoFljMlq4ZqnP3/F84xmmXfkM2r+xoKCitiZu22DXj05W5uiWQ2JRi5M8OyQ/czLE+eSkFBv5nhtFWhpP+lUYJcAeEUwKtT4rNL/i24NIHQMSGsrXAO/sb1BsocstbOI8p40FlflPstAt7d/DYfeBifRBD2J7IVb5kpmg=
+    secure: 2n9mJsm5Wo+ymKALw6L5bH6io5TnKQiFDKNpKPluaSanTA80HZohRb0sD185/3BN9lceQT00rFCI8u0m7E8eq/RlgISAhLnSr1Znu2l39HSqcUZlAKigOMgg82jmzL68UkhXaQcM4bjGwtI3WVKq9Ws2tQLvgCMUvnw7SW+F0PhNaczoepUMVy5k64A2QE9nF3MkDsZK2tyr4FtBjmdkBxbt3x8r7S8CgsBUK60WItMauX1Fi4sNmL+zWuhkqOOh+lEv1jGOKd6GlRCCiate/mT1cnyDymQsz1NAqdpeohPWV1Yhdt+8kPzvNiIlNr3bDuO3KdRP7Kwn+LsBgTcdlL9lixXOu77bn0Eu1yQEwy+GbCEBKbIITXhj/T0xlj/kFbjP8Y+Sa6c0XlzIUCtPokj0kHcIxuipm8EljT915rf7ysyPZE8AhtdLswiwqJEM8ZBlpGl/21F+aPIu3yBsOlYQ4Tf7GOhwtOg5hlcNvXSRjamm5xX4Yvkb4PgCnjGkF3j1nBRsmwKceeIyMaHzGKdL1OT/tTkUSAkc3HSWlnyebyOi+8SSjLWpe7YTanQiCuruqHWIddMQjmfVpSIAEJwJRHUdXZt5UbD2OkOb7dgbyEe8DODaDXirv9mCMmGAJ3sF3nodrUEZLlwD6PamX8yUajmARTVrwcZOtsFExa4=
   on:
     tags: true
     repo: schibsted/identity-sdk
     branch: master
-    # only publish from one row of the build matrix
     node: '8'
