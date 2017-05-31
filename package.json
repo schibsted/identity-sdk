@@ -27,7 +27,7 @@
     "node-fetch": "^1.6.3"
   },
   "peerDependencies": {
-    "schibsted-core-sdk-node": "0.0.11"
+    "schibsted-core-sdk-node": "*"
   },
   "repository": {
     "type": "git",
