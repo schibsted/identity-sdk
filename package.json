@@ -1,6 +1,6 @@
 {
   "name": "schibsted-identity-sdk",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "SDK for Schibsted Identity",
   "keywords": [
     "schibsted",
