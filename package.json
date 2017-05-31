@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/schibsted/core-sdk-node"
+    "url": "https://github.com/schibsted/identity-sdk"
   },
   "bugs": {
-    "url": "https://github.com/schibsted/core-sdk-node/issues"
+    "url": "https://github.com/schibsted/identity-sdk/issues"
   },
   "engines": {
     "node": ">=6.4"
