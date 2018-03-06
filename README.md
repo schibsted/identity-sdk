@@ -4,6 +4,8 @@
 [![Downloads](https://img.shields.io/npm/dm/schibsted-identity-sdk.svg?style=flat-square)](http://npm-stat.com/charts.html?package=schibsted-identity-sdk&from=2017-01-01)
 [![MIT License](https://img.shields.io/npm/l/schibsted-identity-sdk.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
+# DEPRECATED / OBSOLETE / NOT IN USE / DO NOT USE / ARCHIVED
+
 # Introduction
 
 ![Schibsted Common Components Logo](cc-logo.png)
